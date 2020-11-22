@@ -1,0 +1,69 @@
+.Task-selectbox{
+    padding: 1rem 1.5rem;
+    margin-right:10px;
+    cursor: pointer;
+}
+
+.Task-title{
+  margin-left:10px;
+  margin-top:10px;
+  cursor: pointer;
+}
+
+.Task-edit-title{
+ margin-left: 15px;
+}
+
+.Task-edit-input{
+    padding: 0.8rem 0.5rem;
+    width:490px;
+    margin-left:15px;
+    margin-top:10px;
+    font-size:17px;
+}
+
+.Task-edit{
+  display:flex;
+  flex-direction: column;
+}
+
+.Task-btn-group{
+   display:flex;
+   margin-bottom:15px;
+   justify-content: flex-start;
+   padding: 1rem 1rem 0.7rem;
+   /* width:100%; */
+}
+
+.Task-toggle-btn{
+    width:250px;
+    border-color: rgb(211, 211, 211);
+    background-color: white;
+    font-size:18px;
+    border-width: 1px;
+    margin-right:10px;
+    
+ }
+
+ .btn{
+    cursor: pointer;
+    padding: 0.7rem 0.5rem 0.7rem;
+}
+
+.btn-white{
+    border-width: 0.2rem;
+    border-style: solid;
+    border-color: rgb(77, 77, 77);
+}
+
+.btn-danger{
+    color: rgb(255, 255, 255);
+    background-color: rgb(202, 60, 60);
+    border-color: rgb(189, 33, 48);
+}
+
+.btn-black{
+    color: rgb(255, 255, 255);
+    background-color:black;
+    border-color: black;
+}
