@@ -6,9 +6,8 @@ import './TaskList.css';
 const TaskList = () => {
     const [filter, setFilter] = useState('All');
     const { tasks } = useStateValue();
-    console.log('am in tasklist');
     useEffect(() => {
-        console.log('am in tasklist useeffect');
+        // console.log('am in tasklist useeffect');
     }, [tasks])
 
     const blockName = "TaskList";

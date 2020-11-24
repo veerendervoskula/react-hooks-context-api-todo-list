@@ -3,7 +3,7 @@ import { useStateValue } from '../context/StateProvider';
 import './Task.css';
 
 function Task(task) {
-    console.log('am in task');
+    // console.log('am in task');
     const [isEditMode, setEdit] = useState(false);
     const [taskValue, setTaskValue] = useState('');
     const [isChecked, setCompletedTask] = useState(false);
