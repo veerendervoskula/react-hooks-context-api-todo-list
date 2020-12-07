@@ -38,7 +38,7 @@ const reducer = (state, action) => {
         case 'DELETE_TASK':
             return {
                 ...state,
-                tasks: state.tasks.filter(item => item.id !== action.id)
+                tasks: state.tasks.filter(item => item.id !== action.payload)
             }
         case 'ADD_TASK':
             return {
